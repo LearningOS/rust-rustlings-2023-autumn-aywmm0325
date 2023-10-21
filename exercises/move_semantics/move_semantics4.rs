@@ -10,7 +10,7 @@
 
 
 fn main() {
-    let vec0: Vec<i32> = Vec::new();
+    let vec0 = fill_vec();
 
     let mut vec1 = fill_vec();
 
@@ -30,4 +30,5 @@ fn fill_vec() -> Vec<i32> {
     vec.push(66);
 
     vec
+    
 }

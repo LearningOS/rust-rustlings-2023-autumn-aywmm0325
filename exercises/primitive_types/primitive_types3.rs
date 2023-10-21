@@ -8,7 +8,7 @@
 
 
 fn main() {
-    let a = [3,120];
+    let a:[u32;3] = [1,2,3];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
